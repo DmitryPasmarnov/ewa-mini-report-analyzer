@@ -2,7 +2,7 @@
 Agentic solution to provide response to request regarding SAP Early Watch Alert Mini (short) report.
 
 # Technology Stack Summary
-<img width="614" height="363" alt="image" src="https://github.com/user-attachments/assets/1ccc9101-a8f8-460d-a7b9-05dfe3c1b43e" />
+<img width="814" height="306" alt="image" src="https://github.com/user-attachments/assets/45666b7e-47b7-4528-9408-bb2339e86bfa" />
 
 !!! In the future agent to be extended and to be used for production analysis of EWA reports for all customers, that is why all components are working only locally.
 
@@ -91,7 +91,8 @@ Tested with SAP EWA-specific queries such as:
 Timing metrics are recorded per stage (reasoning, retrieval, generation, reflection, evaluation), enabling transparent performance analysis.
 
 **Project Structure**
-<img width="938" height="360" alt="image" src="https://github.com/user-attachments/assets/87c5b228-217d-4b67-a1dc-c984bbf72bd6" />
+<img width="910" height="541" alt="image" src="https://github.com/user-attachments/assets/5f13534f-abb6-4bed-b16c-41290cb1c928" />
+
 
 **Execution instaruction**
 ### 1. Install dependencies
@@ -109,15 +110,7 @@ streamlit run /sap_ewa_agent/src/ui_app.py
 http://localhost:8501/
 
 1. Upload EWA report
-<img width="758" height="383" alt="image" src="https://github.com/user-attachments/assets/1fd651bb-3d38-418d-b563-cf69d1a1ac6e" />
-
 2. Prepare knowledge base -> click: "Run data preparation"
-<img width="475" height="162" alt="image" src="https://github.com/user-attachments/assets/cd33b980-2f30-4f3d-a68b-f7dc4bfe6698" />
-
-3. Provide question:
-<img width="730" height="254" alt="image" src="https://github.com/user-attachments/assets/de9f3e35-90b0-4064-bc28-bf5d252e7882" />
-
+3. Provide question
 4. Get response
-<img width="702" height="590" alt="image" src="https://github.com/user-attachments/assets/d066e31a-c9e5-403a-9ab6-f74b8dd94c23" />
-
 
