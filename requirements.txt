@@ -1,0 +1,5 @@
+pypdf
+langchain-community
+langchain-huggingface
+langchain-core
+langchain-ollama
